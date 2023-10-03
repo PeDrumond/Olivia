@@ -1,0 +1,15 @@
+GIT é um sistema de controle de versão distribuído, gratuito e open source.
+
+git clone <url>
+Clona um repositório Git existente para um novo diretório (pasta) local
+
+git commit
+Grava as alterações no repositório
+
+git pull 
+Puxa as alterações do repositório remoto para o local (busca e mescla)
+
+git push
+Empura as alterações do repositório local para o remoto.
+
+GITHUB é uma plataforma de hospedagem de código para controle de versão com GIT, e colaboração.
