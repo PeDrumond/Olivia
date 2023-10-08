@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ZCyZoFLOIQSpkANWMVWB7AHW9Ql+XGdTr85zsS4AVr2PsNVWYeXBncNrjnOTOtzzYz1yzSQGBA2z6eBjT/daMA==",
+  "dgSpecHash": "T5lyqOQdgkMGbmxh5e7WDXvLv+5xm3FjxPhh4bIzFNvxNvp2wIFQh8bOp8UbfvdaBn47CbhVPTdLjNY0t+SZmw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PedroDrumond(BYSBR)\\source\\repos\\Olivia\\Bootcamp DIO\\Estacionamento\\Estacionamento.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/workspaces/Olivia/Bootcamp DIO/Estacionamento/Estacionamento.csproj",
+  "expectedPackageFiles": [
+    "/home/codespace/.nuget/packages/microsoft.netcore.app.ref/6.0.20/microsoft.netcore.app.ref.6.0.20.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.20/microsoft.aspnetcore.app.ref.6.0.20.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.20/microsoft.netcore.app.host.linux-x64.6.0.20.nupkg.sha512"
+  ],
   "logs": []
 }
