@@ -22,3 +22,16 @@ Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
 
 # Listas
 
+Numa lista não há limite de tamanho, sendo mais fácil adicionar e remover arquivos.
+
+List<string> listaString = new List<string>();
+
+### Adicionar valores
+
+listaString.Add("SP")
+listaString.Add("BA")
+listaString.Add("MG")
+
+### Remover valores
+
+listaString.Remove("MG")
