@@ -80,7 +80,40 @@ public class ContaCorrente
 
 A herança nos permite reutilizar atributos, métodos e comportamentos de uma classe em outras classes. Serve para agrupar objetos que são do mesmo tipo, porém com características diferentes.
 
+```` c#
 public class Aluno : Pessoa
 {
   // Bloco de Código
 }
+````
+
+### Polimorfismo
+
+Podemos sobrescrever métodos das classes filhas para que se comportem de maneira diferente e ter sua própria implementação.
+
+- Para que um método possa ser sobrescrito, é necessário declarar como virtual.
+- O método subscritor precisa utilizar o parâmetro override.
+
+```` c#
+public class Pessoa
+{
+  public string Nome {get; set}
+  public string Idade {get; set;}
+  public string Email {get; set;}
+
+  public virtual void Apresentar()
+  {
+    Console.WriteLine($"Olá, meu nome é {nome}, e tenho {idade} anos!");
+  }
+}
+
+public class Aluno : Pessoa
+{
+  public double Nota {get; set;}
+
+  public override void Apresentar()
+  {
+    Console.WriteLine($"Olá, meu nome é {Nome}, tenho {Idade}, e sou um aluno nota {Nota}!");
+  }
+}
+````
